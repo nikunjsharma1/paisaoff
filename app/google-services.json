@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1061072584335",
+    "firebase_url": "https://paisaoff.firebaseio.com",
+    "project_id": "paisaoff",
+    "storage_bucket": "paisaoff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061072584335:android:759fe5779f885701e8bafa",
+        "android_client_info": {
+          "package_name": "com.example.paisaoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061072584335-kn6gubd6hqepqe46b66np8u7gv0nlpuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFerAdENNxNIvBBhbqR7dbPSCVuj-qRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061072584335-kn6gubd6hqepqe46b66np8u7gv0nlpuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

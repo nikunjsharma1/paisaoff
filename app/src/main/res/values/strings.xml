@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PaisaOff</string>
+    <string name="auth_failed">failed</string>
+</resources>

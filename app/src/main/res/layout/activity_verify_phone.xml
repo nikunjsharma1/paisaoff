@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".verifyPhoneActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:text="The OTP is sent to Your Phone"
+        android:textSize="25sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="#0A0A0B" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="300dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:background="@drawable/tect"
+        android:digits="0123456789"
+        android:drawablePadding="10dp"
+        android:hint="enter verification code"
+        android:inputType="phone"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_below="@id/editTextCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#080A0E" />
+
+</RelativeLayout>
